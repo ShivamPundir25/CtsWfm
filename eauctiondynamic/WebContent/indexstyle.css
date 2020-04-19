@@ -1,0 +1,78 @@
+@charset "ISO-8859-1";
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400');
+body
+{
+margin:0;
+padding:0;
+background-image:url('one.jpg');
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+background-attachment:fixed;
+font-family:'Poppins',sans-serif;
+}
+h1
+{
+color:#800040;
+font-family:arial,sans-serif;
+font-weight:bold;
+position:absolute;
+left:100px;
+top:8px;
+}
+form{
+position:absolute;
+top:2%;
+left:50%;
+background:rgba(0,0,.4);
+padding:50px;
+border-radius:4px;
+}
+form label{
+display:block;
+color:#800000;
+font: bold 20px arial, sans-serif;
+margin-bottom:8px;
+cursor:pointer;
+text-transform:capitalize;
+font-weight:200;
+}
+
+form input{
+font: bold 15px arial, sans-serif;
+padding:7px;
+width:100%;
+border:1px solid #fff000;
+color:#hhh;
+display:block;
+backgrounf:transparent;
+margin-bottom:8px;
+cursor:pointer;
+}
+form input[type="submit"] {
+background: #660022;
+color:white;
+align:center;
+border-style: outset;
+border-color: #ffff00;
+height: 40px;
+width: 150px;
+font: bold 20px arial, sans-serif;
+text-shadow:none;
+}
+
+form p{
+color:ffffff;
+font: bold 20px arial, sans-serif;
+font-weight:200;
+}
+
+form p a{
+color:ffffff;
+font: bold 20px arial, sans-serif;
+text-decoration:none;
+text-transform:capitalize;
+cursor:pointer;
+font-weight:300;
+}
