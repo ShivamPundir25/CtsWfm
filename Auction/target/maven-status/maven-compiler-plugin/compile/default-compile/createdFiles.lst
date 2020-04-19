@@ -1,0 +1,8 @@
+com\eas\model\User.class
+com\eas\dao\UserDao.class
+com\eas\services\UserService.class
+com\eas\model\Product.class
+com\eas\services\UserServiceImpl.class
+com\eas\controller\UserContoller.class
+com\eas\model\Category.class
+com\eas\dao\UserDaoImpl.class
